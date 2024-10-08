@@ -60,8 +60,8 @@
 
 **9. All the companies founded on the second semester of the year (July to December). Limit your search to 1000 companies.**
 
-    projection: /You should copy/paste the projection in here/
-    limit: 1000
+Query: {founded_month: {$gte: 7}}
+limit: 1000
 
 <br>
 
